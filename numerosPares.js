@@ -1,6 +1,6 @@
 // escribe tu función acá
 function pares(arreglo) {
-    if (arreglo == []) {
+    if (arreglo.length == 0) {
         return [];
     }
     var arregloPares = [];

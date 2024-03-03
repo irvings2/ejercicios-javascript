@@ -1,6 +1,6 @@
 // escribe tu función acá
 function empiezanConA(arreglo) {
-    if (arreglo == []) {
+    if (arreglo.length == 0) {
         return [];
     }
     var arregloDeA = [];
